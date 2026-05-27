@@ -1,0 +1,15 @@
+name: docaveproject
+description: "A new Flutter project."
+
+environment:
+  sdk: '^3.11.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true

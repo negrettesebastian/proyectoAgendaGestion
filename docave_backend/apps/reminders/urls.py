@@ -1,0 +1,8 @@
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .serializers_views import ReminderViewSet
+
+router = DefaultRouter()
+router.register(r'', ReminderViewSet, basename='reminder')
+
+urlpatterns = [path('', include(router.urls))]
