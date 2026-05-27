@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\WELCOME\\\\Documents\\\\Proyecto_softwareFinal\" -Recurse -Name)",
-      "Bash(Select-Object -First 100)"
-    ]
-  }
-}
